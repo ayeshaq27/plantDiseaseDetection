@@ -1,6 +1,59 @@
-data/
-outputs/
+# -------------------------
+# Project & Code Structure
+# -------------------------
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Jupyter Notebook Stuff
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# ML Model Weights
+# -------------------------
 *.pt
 *.pth
-.ipynb_checkpoints/
+*.ckpt
+
+# -------------------------
+# Data & Outputs
+# -------------------------
+data/
+outputs/
+logs/
+runs/
+
+# -------------------------
+# Cache folders (PyTorch, HuggingFace, etc.)
+# -------------------------
+.cache/
+.direnv/
+*.egg-info/
+
+# -------------------------
+# OS / Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+
+# -------------------------
+# Python environments for Jupyter kernels
+# -------------------------
+.ipynb_kernels/
+
+# -------------------------
+# VSCode
+# -------------------------
+.vscode/
