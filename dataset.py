@@ -10,15 +10,15 @@ from PIL import Image
 import os
 
 class PlantVillageDataset(Dataset):
-  def __init__(self, root_dir, classes, transform=None):
+  def __init__(self, root_dir, transform=None):
     self.root_dir = root_dir
     self.transform = transform
-    self.classes = classes
+    self.classes = sorted(os.listdir(root_dir))
 
     self.image_paths = []
     self.labels = []
 
-    for idx, cls in enumerate(classes):
+    for idx, cls in enumerate(self.classes):
       class_path = os.path.join(root_dir, cls)
       img_files = os.listdir(class_path)
 
