@@ -64,10 +64,10 @@ data/PlantVillage/
 ### 3. Run notebooks in this order:
 
 1. `01_eda.ipynb` – dataset exploration
-2. `02_baseline_cnn.ipynb` – simple CNN baseline
-3. `03_resnet_training.ipynb` – ResNet-50 fine-tuning
-4. `04_gradcam_analysis.ipynb` – Grad-CAM heatmaps
-5. `05_results_figures.ipynb` – confusion matrix and comparison charts
+2. `02_Data_Pipeline.ipynb` 
+3. `03_Baseline_CNN.ipynb` 
+4. `04_Transfer_Learning_ResNet18.ipynb` 
+5. `05_Model_Evaluation.ipynb` 
 
 ---
 
