@@ -4,7 +4,7 @@
 
 This project implements a deep learning pipeline for classifying plant leaf diseases using the PlantVillage dataset. It follows the CPS847 project roadmap and includes EDA, baseline modeling, transfer learning with ResNet-50, and explainability using Grad-CAM.
 
----
+[View the report](https://drive.google.com/file/d/1g0hskTgbQvFMPyMcQUab5Ou9Fn5lQhEI/view?usp=sharing)
 
 ## 📘 Project Overview
 
